@@ -1,3 +1,3 @@
-module coveros.com
+module github.com
 
 go 1.14
