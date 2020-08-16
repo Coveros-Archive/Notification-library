@@ -1,2 +1,2 @@
-module  github.com/Coveros/notification-library
+module  github.com/coveros/notification-library
 go 1.14

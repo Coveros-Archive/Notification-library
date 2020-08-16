@@ -39,7 +39,7 @@ type slackField struct {
 	Short bool   `json:"short"`
 }
 
-func NewSlack(botAccessToken string) *slackClient {
+func newSlack(botAccessToken string) *slackClient {
 	return &slackClient{
 		SlackApiUrl:    SlackAPIUrl,
 		BotAccessToken: botAccessToken,

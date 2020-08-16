@@ -26,7 +26,7 @@ type Notify interface {
 func NewNotificationProvider(provider NotificationProvider, token string) Notify {
 	switch provider {
 	case Slack:
-		return NewSlack(token)
+		return newSlack(token)
 	//TODO: add more implementations as needed
 	}
 	return nil
