@@ -7,6 +7,7 @@ var (
 	Success NotifyEventType = "success"
 	Warning NotifyEventType = "warning"
 	Slack NotificationProvider = "slack"
+	Noop NotificationProvider = "noop"
 	//TODO: add more as needed
 )
 
