@@ -27,7 +27,8 @@ func NewNotificationProvider(provider NotificationProvider, token string) Notify
 	switch provider {
 	case Slack:
 		return newSlack(token)
-	//TODO: add more implementations as needed
+	default:
+		return newNoop()
 	}
 	return nil
 }
